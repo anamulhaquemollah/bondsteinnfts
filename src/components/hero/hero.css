@@ -1,0 +1,44 @@
+.hero {
+  height: 440px;
+  display: flex;
+  margin: 60px 0;
+  justify-content: center;
+}
+
+.hero__left {
+  flex: 0.58;
+  padding-right: 50px;
+}
+.hero__details {
+  padding-top: 30px;
+  font-size: 20px;
+  line-height: 160%;
+  width: 70%;
+}
+
+.hero__explore {
+  width: 209px;
+  height: 65px;
+  color: white;
+  background: #3d00b7;
+  border-radius: 60px;
+  margin: 35px 0;
+}
+
+.hero__left-stat {
+  display: flex;
+  gap: 16px;
+}
+
+.hero__right {
+  flex: 0.42;
+  position: relative;
+  display: flex;
+  /* justify-content: flex-end; */
+}
+
+.hero__right img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+}
