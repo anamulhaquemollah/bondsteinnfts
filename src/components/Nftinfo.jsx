@@ -5,7 +5,7 @@ import fast from "../assets/images/nftinfo/fast.png";
 
 const Nftinfo = () => {
   return (
-    <div className="flex justify-between gap-7 bg-gray-100 default-padding py-20 mt-[200px]">
+    <div className="grid items-center-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 bg-gray-100 default-padding py-20 mt-[270px] md:mt-[70px]">
       <h2>The amazing NFT art of the world here</h2>
       <div className="flex items-start gap-4">
         <img src={fast} alt="" />

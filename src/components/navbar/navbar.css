@@ -1,3 +1,5 @@
+
+
 .nav {
   display: flex;
   justify-content: space-between;
@@ -54,4 +56,82 @@
 height: 50px;
 border: 2px solid #3D00B7;
 border-radius: 60px;
+}
+
+.burger-menu{
+  display: none;
+  position: relative;
+}
+.burger__menu-container{
+  z-index: 100;
+  position: absolute;
+  top: 40px;
+  right: 0px;
+  background: #3d00b7;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+
+.burger__menu-links li a{
+  font-size: 1.2rem;
+  
+}
+
+.burger__menu-button{
+  display: none;
+}
+
+@media only screen and (max-width: 1279px) {
+  .nav__links {
+    display: none;
+  }
+
+  .burger-menu{
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  
+  .search input {
+    width: 200px;
+  }
+  
+  .upload {
+    width: 90px;
+  }
+  
+  .connectWallet{
+      width: 126px;
+  }
+
+  .nav__search-buttons {
+    gap: 10px;
+  }
+
+  .default-padding{
+    padding: 30px  80px ;
+  }
+
+}
+@media only screen and (max-width: 767px){
+  .nav__button{
+    display: none;
+  }
+
+  .burger__menu-button{
+    display: block;
+    
+  }
+
+  .burger__menu-button button{
+    margin-top: 10px;
+  }
+
+  .default-padding{
+    padding: 30px  50px ;
+  }
 }

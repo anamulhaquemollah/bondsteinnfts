@@ -14,7 +14,7 @@ const Features = () => {
   return (
    <div className="default-padding py-14">
     <h2>COLLECTION FEATURED NFTS</h2>
-    <div className="grid grid-cols-3 gap-5 mt-7">
+    <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 mt-7">
         <Collection featureImage={f1} imageOne={f11} imageTwo={f12} imageThree = {f13}/>
         <Collection featureImage={f2} imageOne={f21} imageTwo={f12} imageThree = {f13}/>
         <Collection featureImage={f3} imageOne={f32} imageTwo={f13} imageThree = {f31}/>

@@ -1,5 +1,6 @@
 import f1 from "../../assets/images/featured/f2.png"
 import NFT from "./NFT";
+import {BsFilter} from "react-icons/bs"
 
 const Discover = () => {
   const lists = [
@@ -16,8 +17,8 @@ const Discover = () => {
   return (
     <div className="default-padding bg-slate-100 py-20 flex flex-col">
       <h1>DISCOVER MORE NFTS</h1>
-      <div className="flex justify-between items-center">
-        <div className="flex gap-5 my-5">
+      <div className="flex justify-between items-center ">
+        <div className=" hidden lg:flex gap-5 my-5 ">
           {lists.map((list, index) => {
             return (
               <p className="px-3 py-1 border bg-gray-50 rounded-full" key={index}>{list}</p>
@@ -26,10 +27,10 @@ const Discover = () => {
         </div>
 
         <div>
-        <p className="px-3 py-1 border bg-gray-50 rounded-full"> All Filters</p>
+        <p className="w-fit px-5 py-1 border bg-gray-50 rounded-full"><BsFilter/> All Filters</p>
         </div>
       </div>
-      <div className="grid grid-cols-4 gap-5">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
         {
           //should pass any other id as key instead of index
             nftList.map((nft, index) => {

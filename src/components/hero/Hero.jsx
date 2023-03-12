@@ -1,12 +1,7 @@
 import React from 'react'; 
 
 import heroall from "../../assets/images/hero/heroall.png"
-import hero1 from "../../assets/images/hero/hero1.png"
-import hero2 from "../../assets/images/hero/hero2.png"
-import hero3 from "../../assets/images/hero/hero3.png"
-import herotop from "../../assets/images/hero/herotop.png"
-import herofooter from "../../assets/images/hero/herofooter.png"
-import herouser from "../../assets/images/hero/herouser.png"
+
 import "./hero.css"
 
 const Hero = () => {
