@@ -11,13 +11,13 @@ const Navbar = () => {
       <div className="nav__links">
         <ul>
           <li>
-            <a href="#">Marketplace</a>
+            <a href="#marketplace">Marketplace</a>
           </li>
           <li>
-            <a href="#">Resource</a>
+            <a href="#resource">Resource</a>
           </li>
           <li>
-            <a href="#">About</a>
+            <a href="#about">About</a>
           </li>
         </ul>
       </div>
@@ -41,13 +41,13 @@ const Navbar = () => {
           <div className="burger__menu-container">
             <ul className="burger__menu-links">
               <li>
-                <a href="#">Marketplace</a>
+                <a href="#mar">Marketplace</a>
               </li>
               <li>
-                <a href="#">Resource</a>
+                <a href="#res">Resource</a>
               </li>
               <li>
-                <a href="#">About</a>
+                <a href="#ab">About</a>
               </li>
             </ul>
             <div className="burger__menu-button">
